@@ -67,6 +67,11 @@ body {
 
 }
 
+.login-panel form input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: black;
+    cursor: pointer;
+}
+
 .login-panel form input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
     outline: 0;
     border: 1px solid var(--color-blue);
@@ -115,7 +120,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 350px;
     
 }
 
@@ -126,7 +131,7 @@ body {
 }
 
 .text-right h2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .descricao {
