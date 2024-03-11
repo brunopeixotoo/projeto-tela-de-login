@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    --color-blue: rgb(13, 68, 218);
+    --color-white: white;
+
+    font-family: "Roboto", sans-serif;
+}
+
+#wall {
+    height: 100vh;
+    
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column {
+    flex-grow: 1;
+    width: 80%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-panel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-panel h1{
+    font-size: 30px;
+    margin: 20px 0 30px 0;
+}
+
+.login-panel form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    width: 100%;
+}
+
+.login-panel form input {
+   padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+
+}
+
+.login-panel form input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    outline: 0;
+    border: 1px solid var(--color-blue);
+}
+
+.termos {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: var(--color-blue);
+    font-size: 14px;
+    color: var(--color-white);
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+
+.link-acesso {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link-acesso p a{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.column.right {
+    background-color: var(--color-blue);
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    
+}
+
+.text-right {
+    color: var(--color-white);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text-right h2 {
+    font-size: 30px;
+}
+
+.descricao {
+    margin-top: 20px;
+    text-align: justify;
+    width: 100%;
+    
+}
+
+.descricao p {
+    margin: auto 100px;
+}
