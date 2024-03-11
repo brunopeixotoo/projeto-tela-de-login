@@ -69,3 +69,43 @@
         width: 70%;
     }
 }
+@media(max-height: 400px) {
+
+    
+    .login-panel h1{
+        font-size: 20px;
+        margin: 15px 0 15px 0;
+    }
+
+    .login-panel form input {
+        padding: 8px;
+         margin-bottom: 10px;
+         width: 70%;
+     
+     }
+
+     .termos {
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+    .button {
+        background-color: var(--color-blue);
+        font-size: 15px;
+        color: var(--color-white);
+        border-radius: 3px;
+        border: none;
+        padding: 8px;
+        width: 70%;
+    }
+    
+    .imagem {
+        width: 200px;
+    }
+    .text-right h2 {
+        font-size: 17px;
+    }
+    .text-right{
+        font-size: 11px;
+    }
+}
